@@ -1,0 +1,120 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1.618em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+main {
+    max-width: 800px;
+    margin: 120px auto 20px auto;
+    padding: 2.618em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1.618em;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.618em;
+    margin-bottom: 2.618em;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.618em;
+    margin-top: 2.618em;
+    font-size: 2em;
+}
+
+.contact-info ul, .skills ul, .certifications ul, .projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li, .skills ul li, .certifications ul li, .projects ul li {
+    margin-bottom: 0.618em;
+}
+
+.projects ul li a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+.projects ul li a:hover {
+    text-decoration: underline;
+}
+
+.profile-pic {
+    display: block;
+    margin: 0 auto 2.618em auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    margin-bottom: 2.618em;
+}
+
+footer {
+    text-align: center;
+    padding: 2.618em 0;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        margin: 150px 10px 20px 10px;
+        padding: 1.618em;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
